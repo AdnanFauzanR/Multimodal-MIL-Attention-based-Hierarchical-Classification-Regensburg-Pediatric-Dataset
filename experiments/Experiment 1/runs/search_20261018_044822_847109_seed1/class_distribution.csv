@@ -1,0 +1,4 @@
+label,test,train,val
+complicated_appendicitis,19,62,15
+no appendicitis,39,125,32
+uncomplicated_appendicitis,58,182,46

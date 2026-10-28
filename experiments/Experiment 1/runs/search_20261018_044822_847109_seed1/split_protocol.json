@@ -1,0 +1,9 @@
+{
+  "cohort_sha256": "d6cf41aed815cf4551e8f13aa834344648b93287bd2f992d004fd586dbb74166",
+  "manifest_sha256": "139e13b1adb6efcbf7ca952f5e9a6f26fcb661b5d3135ce80145397f25fd3f0a",
+  "split_seed": 1,
+  "test_size": 0.2,
+  "val_size_within_development": 0.2,
+  "stratify": "Label",
+  "unit": "patient"
+}

@@ -1,0 +1,14 @@
+{
+  "reference_dir": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1",
+  "protocol": "ca152051a637ff29f6825947ee909babf4931623edd4b4fecbad3c33febca123",
+  "baseline_csv_sha256": "d828804188d422c3a12c96d7254d30a2ddca085d587a6afb6ecdadaabc1213b3",
+  "runs": [
+    {
+      "variant": "softmax",
+      "directory": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\softmax_s26_20261018_124547_805592_seed1",
+      "checkpoint_sha256": "a97ed74bd7cd3f9f7cfe5f5020c0f8252435a84dad8ee18108e3de04469450b5",
+      "test_available": true
+    }
+  ],
+  "test_used_for_selection": false
+}

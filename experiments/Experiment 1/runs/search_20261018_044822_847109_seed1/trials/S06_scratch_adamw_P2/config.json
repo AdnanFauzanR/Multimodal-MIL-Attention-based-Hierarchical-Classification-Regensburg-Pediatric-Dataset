@@ -1,0 +1,146 @@
+{
+  "scenario": {
+    "scenario_id": "S06_scratch_adamw_P2",
+    "regime": "scratch",
+    "pretrained": false,
+    "freeze_backbone": false,
+    "optimizer": "adamw",
+    "profile": "P2",
+    "lr": 0.001,
+    "dropout_rate": 0.2,
+    "weight_decay": 0.0001,
+    "backbone_lr_multiplier": 1.0,
+    "effective_backbone_lr": 0.001
+  },
+  "model": {
+    "num_tabular_features": 53,
+    "use_dropout": true,
+    "dropout_rate": 0.2,
+    "backbone": "resnet18",
+    "pretrained": false,
+    "freeze_backbone": false,
+    "backbone_trainable_stage": null,
+    "image_embed_dim": null,
+    "image_dropout": 0.2,
+    "aggregation": "attention",
+    "attention_fusion": "dual",
+    "attention_dim": 128,
+    "attention_gated": true,
+    "attention_dropout": 0.2,
+    "lstm_hidden": 256,
+    "lstm_layers": 1,
+    "lstm_bidirectional": false,
+    "lstm_dropout": 0.2,
+    "tabular_encoder": "mlp",
+    "tabular_embed_dim": 64,
+    "mlp_hidden_dims": [
+      128
+    ],
+    "mlp_dropout": 0.2,
+    "tabnet_n_steps": 5,
+    "tabnet_gamma": 1.5,
+    "tabnet_n_shared": 2,
+    "tabnet_n_independent": 2,
+    "tabnet_virtual_batch_size": 128,
+    "tabnet_momentum": 0.02,
+    "fusion_hidden_dims": [
+      256,
+      64
+    ],
+    "fusion_dropout": 0.2,
+    "head": "dual_head",
+    "complication_loss_weight": 1.0,
+    "tabnet_sparsity_weight": 0.0
+  },
+  "optimizer": {
+    "name": "adamw",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "backbone_lr_multiplier": 1.0,
+    "momentum": 0.9,
+    "nesterov": true,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "no_decay_bias_norm": true
+  },
+  "training": {
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 16,
+    "num_workers": 0,
+    "use_amp": true,
+    "monitor": "val_f1",
+    "patience": 25,
+    "min_delta": 0.0,
+    "threshold": 0.5,
+    "early_stopping_rule": "best_monitor",
+    "test_bootstrap_resamples": 1000,
+    "device": "cuda",
+    "save_plots": true,
+    "verbose": true
+  },
+  "shared_artifacts": {
+    "split_manifest.csv": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\split_manifest.csv",
+      "sha256": "717768b1527cedcf8a6036987765b2ded6e32e56b0f2d0f34f45d3e65af077ff"
+    },
+    "split_protocol.json": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\split_protocol.json",
+      "sha256": "aba45a84910d660c5d9aaee5e09b517d4f88bb1d9ea15ed2567dc8470161754a"
+    },
+    "tabular_preprocessing.joblib": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\tabular_preprocessing.joblib",
+      "sha256": "f0e52631aef2bd386ccbcce87a0c7ed5c17823e1e19b9334cb0d370432f79539"
+    },
+    "image_stats.json": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\image_stats.json",
+      "sha256": "67603efc7c48490da05a0a225d0a5be3b882dd06e1d80d5a3113debc9e18b3b3"
+    },
+    "image_integrity.csv": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\image_integrity.csv",
+      "sha256": "58de07a9f8d20c53700ab3db0d32e23fb0f810976d01242ed2da292add8eb6d0"
+    },
+    "feature_dictionary.csv": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\feature_dictionary.csv",
+      "sha256": "317e8e3fad44f8e510f37563da2404fb6f81aebe2e1eeb775b9af9b2932e4771"
+    },
+    "search_fingerprint": "5ea2f900193fbf06cf30dfd8d1c69ead8534c5690a132979d40c42f378c50205"
+  },
+  "auroc_definition": "macro_one_vs_rest_three_classes",
+  "parameters": {
+    "total": 11783150,
+    "trainable": 11783150,
+    "backbone": 11176512,
+    "image_proj": 0,
+    "aggregator": 262914,
+    "tabular": 15274,
+    "fusion_diagnosis": 164160,
+    "fusion_complication": 164160,
+    "head_diagnosis": 65,
+    "head_complication": 65
+  },
+  "optimizer_groups": [
+    {
+      "name": "head",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    {
+      "name": "head_no_decay",
+      "lr": 0.001,
+      "weight_decay": 0.0
+    },
+    {
+      "name": "backbone",
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    {
+      "name": "backbone_no_decay",
+      "lr": 0.001,
+      "weight_decay": 0.0
+    }
+  ]
+}

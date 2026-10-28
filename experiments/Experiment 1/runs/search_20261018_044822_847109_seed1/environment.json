@@ -1,0 +1,17 @@
+{
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "numpy": "2.3.3",
+    "pandas": "2.3.2",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "Pillow": "11.3.0",
+    "joblib": "1.6.0"
+  },
+  "cuda_available": true,
+  "cuda_version": "13.0",
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU"
+}

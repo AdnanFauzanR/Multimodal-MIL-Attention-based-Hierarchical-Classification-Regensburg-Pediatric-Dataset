@@ -1,0 +1,10 @@
+Model,Kelas,N,TP,FP,FN,Precision %,Recall %,F1 %,Specificity %
+Multimodal,No appendicitis,39,35,11,4,76.09,89.74,82.35,85.71
+Multimodal,Uncomplicated,58,41,7,17,85.42,70.69,77.36,87.93
+Multimodal,Complicated,19,16,6,3,72.73,84.21,78.05,93.81
+MLP mandiri,No appendicitis,39,32,13,7,71.11,82.05,76.19,83.12
+MLP mandiri,Uncomplicated,58,40,15,18,72.73,68.97,70.80,74.14
+MLP mandiri,Complicated,19,11,5,8,68.75,57.89,62.86,94.85
+MIL-Attention mandiri,No appendicitis,39,23,26,16,46.94,58.97,52.27,66.23
+MIL-Attention mandiri,Uncomplicated,58,33,29,25,53.23,56.90,55.00,50.00
+MIL-Attention mandiri,Complicated,19,3,2,16,60.00,15.79,25.00,97.94

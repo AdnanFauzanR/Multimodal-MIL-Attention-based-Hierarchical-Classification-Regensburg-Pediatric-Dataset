@@ -1,0 +1,13 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Checkpoint model (77 file, total ~3,4 GB; tiap file ~45 MB)
+*.pt
+
+# Dataset mentah yang besar (bisa diunduh ulang dari Zenodo: 10.5281/zenodo.7711412)
+US_Pictures/
+data/archives/
+US_Pictures_clean/_preview/
+

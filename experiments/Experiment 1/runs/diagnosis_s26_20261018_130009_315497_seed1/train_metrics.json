@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "patients": 369,
+  "support_positive": 244,
+  "support_negative": 125,
+  "tp": 231,
+  "tn": 125,
+  "fp": 0,
+  "fn": 13,
+  "accuracy": 0.964769647696477,
+  "precision": 1.0,
+  "ppv": 1.0,
+  "npv": 0.9057971014492754,
+  "sensitivity": 0.9467213114754098,
+  "recall": 0.9467213114754098,
+  "specificity": 1.0,
+  "f1": 0.9726315789473684,
+  "negative_class_precision": 0.9057971014492754,
+  "negative_class_recall": 1.0,
+  "negative_class_f1": 0.9505703422053232,
+  "macro_f1": 0.9616009605763458,
+  "weighted_f1": 0.9651582602678138,
+  "fpr": 0.0,
+  "fnr": 0.05327868852459016,
+  "balanced_accuracy": 0.9733606557377049,
+  "mcc": 0.9260331634529526,
+  "auroc": 0.9924590163934426,
+  "auprc_average_precision": 0.9966637273625728,
+  "brier": 0.03043301535997118,
+  "log_loss": 0.11623349388172617,
+  "confusion_matrix": [
+    [
+      125,
+      0
+    ],
+    [
+      13,
+      231
+    ]
+  ],
+  "confusion_matrix_order": [
+    "negative",
+    "positive"
+  ],
+  "wilson_95ci": {
+    "accuracy": [
+      0.9406645142936922,
+      0.979297555066611
+    ],
+    "sensitivity": [
+      0.9109919664893638,
+      0.9686025978636346
+    ],
+    "specificity": [
+      0.9701846062916737,
+      1.0
+    ],
+    "ppv": [
+      0.9836423311284778,
+      0.9999999999999999
+    ],
+    "npv": [
+      0.8454945222747072,
+      0.9441194659851178
+    ]
+  },
+  "auprc_ap": 0.9966637273625728,
+  "auprc_trapezoid": 0.9966577145737651,
+  "definition": "appendicitis_vs_no"
+}

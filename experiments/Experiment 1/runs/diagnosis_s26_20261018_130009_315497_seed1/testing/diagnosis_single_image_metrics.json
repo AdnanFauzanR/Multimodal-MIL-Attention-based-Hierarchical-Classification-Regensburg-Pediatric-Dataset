@@ -1,0 +1,92 @@
+{
+  "status": "ok",
+  "patients": 37,
+  "support_positive": 18,
+  "support_negative": 19,
+  "tp": 16,
+  "tn": 18,
+  "fp": 1,
+  "fn": 2,
+  "accuracy": 0.918918918918919,
+  "precision": 0.9411764705882353,
+  "ppv": 0.9411764705882353,
+  "npv": 0.9,
+  "sensitivity": 0.8888888888888888,
+  "recall": 0.8888888888888888,
+  "specificity": 0.9473684210526315,
+  "f1": 0.9142857142857143,
+  "negative_class_precision": 0.9,
+  "negative_class_recall": 0.9473684210526315,
+  "negative_class_f1": 0.9230769230769231,
+  "macro_f1": 0.9186813186813187,
+  "weighted_f1": 0.9188001188001188,
+  "fpr": 0.05263157894736842,
+  "fnr": 0.1111111111111111,
+  "balanced_accuracy": 0.9181286549707601,
+  "mcc": 0.8387132838343627,
+  "auroc": 0.9444444444444444,
+  "auprc_average_precision": 0.9655228758169936,
+  "brier": 0.06884258977042472,
+  "log_loss": 0.24579945377157125,
+  "confusion_matrix": [
+    [
+      18,
+      1
+    ],
+    [
+      2,
+      16
+    ]
+  ],
+  "confusion_matrix_order": [
+    "negative",
+    "positive"
+  ],
+  "wilson_95ci": {
+    "accuracy": [
+      0.7869932065071162,
+      0.9720394258995521
+    ],
+    "sensitivity": [
+      0.672002348698212,
+      0.9689804773543876
+    ],
+    "specificity": [
+      0.753612688331012,
+      0.9906480059376995
+    ],
+    "ppv": [
+      0.730179693624246,
+      0.9895395990150022
+    ],
+    "npv": [
+      0.6989663547715128,
+      0.9721335187862319
+    ]
+  },
+  "auprc_ap": 0.9655228758169936,
+  "auprc_trapezoid": 0.9649074595282027,
+  "definition": "appendicitis_vs_no",
+  "bootstrap_95ci": {
+    "accuracy": {
+      "lower": 0.8378378378378378,
+      "upper": 1.0
+    },
+    "macro_f1": {
+      "lower": 0.8348214285714286,
+      "upper": 1.0
+    },
+    "auroc": {
+      "lower": 0.84203216374269,
+      "upper": 1.0
+    },
+    "auprc_ap": {
+      "lower": 0.909728835978836,
+      "upper": 1.0000000000000002
+    },
+    "auprc_trapezoid": {
+      "lower": 0.9045981858984955,
+      "upper": 1.0000000000000002
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "split": "val",
+  "patients": 93,
+  "threshold": 0.5,
+  "auroc_definition": "macro_one_vs_rest_three_classes",
+  "class_order": [
+    "no appendicitis",
+    "uncomplicated_appendicitis",
+    "complicated_appendicitis"
+  ],
+  "auroc": 0.4827218180147314,
+  "diagnosis_auroc": 0.5696721311475409,
+  "severity_auroc": 0.32463768115942027,
+  "overall": {
+    "accuracy": 0.4946236559139785,
+    "precision": 0.16487455197132617,
+    "sensitivity": 0.3333333333333333,
+    "specificity": 0.6666666666666666,
+    "f1": 0.22062350119904076,
+    "confusion_matrix": [
+      [
+        0,
+        32,
+        0
+      ],
+      [
+        0,
+        46,
+        0
+      ],
+      [
+        0,
+        15,
+        0
+      ]
+    ]
+  },
+  "argmax": {
+    "accuracy": 0.4946236559139785,
+    "precision": 0.33146067415730335,
+    "sensitivity": 0.33967391304347827,
+    "specificity": 0.6699221020811533,
+    "f1": 0.25432098765432093,
+    "confusion_matrix": [
+      [
+        2,
+        30,
+        0
+      ],
+      [
+        2,
+        44,
+        0
+      ],
+      [
+        0,
+        15,
+        0
+      ]
+    ]
+  },
+  "diagnosis": {
+    "accuracy": 0.6559139784946236,
+    "precision": 0.6559139784946236,
+    "sensitivity": 1.0,
+    "specificity": 0.0,
+    "f1": 0.7922077922077922,
+    "support_positive": 61,
+    "support_negative": 32,
+    "auroc": 0.5696721311475409,
+    "auprc": 0.7408065040659506,
+    "brier": 0.22442201801115857,
+    "confusion_matrix": [
+      [
+        0,
+        32
+      ],
+      [
+        0,
+        61
+      ]
+    ]
+  },
+  "severity_direct_true_appendicitis": {
+    "accuracy": 0.7540983606557377,
+    "precision": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "support_positive": 15,
+    "support_negative": 46,
+    "auroc": 0.32463768115942027,
+    "auprc": 0.1884947409167299,
+    "brier": 0.19159181651943874,
+    "confusion_matrix": [
+      [
+        46,
+        0
+      ],
+      [
+        15,
+        0
+      ]
+    ]
+  },
+  "severity_after_gating_true_appendicitis": {
+    "accuracy": 0.7540983606557377,
+    "precision": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "support_positive": 15,
+    "support_negative": 46
+  },
+  "checkpoint_sha256": "a13309a63d1c6c012628358c557678d72a277919318e96e1e30d5ce0bcae89c8"
+}

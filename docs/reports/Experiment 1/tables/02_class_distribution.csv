@@ -1,0 +1,4 @@
+Kelas,train,val,test,Total
+No appendicitis,125 (33.88%),32 (34.41%),39 (33.62%),196
+Uncomplicated,182 (49.32%),46 (49.46%),58 (50.00%),286
+Complicated,62 (16.80%),15 (16.13%),19 (16.38%),96

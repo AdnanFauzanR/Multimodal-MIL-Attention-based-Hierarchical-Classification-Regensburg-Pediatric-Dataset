@@ -1,0 +1,98 @@
+{
+  "modality": "clinical",
+  "model": {
+    "num_tabular_features": 53,
+    "use_dropout": true,
+    "dropout_rate": 0.2,
+    "backbone": "resnet18",
+    "pretrained": true,
+    "freeze_backbone": true,
+    "backbone_trainable_stage": null,
+    "image_embed_dim": null,
+    "image_dropout": 0.2,
+    "aggregation": "attention",
+    "attention_fusion": "dual",
+    "attention_dim": 128,
+    "attention_gated": true,
+    "attention_dropout": 0.2,
+    "lstm_hidden": 256,
+    "lstm_layers": 1,
+    "lstm_bidirectional": false,
+    "lstm_dropout": 0.2,
+    "tabular_encoder": "mlp",
+    "tabular_embed_dim": 64,
+    "mlp_hidden_dims": [
+      128
+    ],
+    "mlp_dropout": 0.2,
+    "tabnet_n_steps": 5,
+    "tabnet_gamma": 1.5,
+    "tabnet_n_shared": 2,
+    "tabnet_n_independent": 2,
+    "tabnet_virtual_batch_size": 128,
+    "tabnet_momentum": 0.02,
+    "fusion_hidden_dims": [
+      256,
+      64
+    ],
+    "fusion_dropout": 0.2,
+    "head": "dual_head",
+    "complication_loss_weight": 1.0,
+    "tabnet_sparsity_weight": 0.0
+  },
+  "optimizer": {
+    "name": "adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "backbone_lr_multiplier": 0.1,
+    "momentum": 0.9,
+    "nesterov": true,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "no_decay_bias_norm": true
+  },
+  "training": {
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 16,
+    "num_workers": 0,
+    "use_amp": true,
+    "monitor": "val_f1",
+    "patience": 25,
+    "min_delta": 0.0,
+    "threshold": 0.5,
+    "early_stopping_rule": "best_monitor",
+    "test_bootstrap_resamples": 1000,
+    "device": "cuda",
+    "save_plots": true,
+    "verbose": true
+  },
+  "provenance": {
+    "reference_directory": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1",
+    "reference_scenario": "S26_pretrained_frozen_adam_P2",
+    "reference_config_sha256": "88d0f836cb16dc9d2828b5f5ce8e60774d0f8eefdb047f970121c005810f9c84",
+    "reference_artifact_sha256": {
+      "split_manifest.csv": "717768b1527cedcf8a6036987765b2ded6e32e56b0f2d0f34f45d3e65af077ff",
+      "tabular_preprocessing.joblib": "f0e52631aef2bd386ccbcce87a0c7ed5c17823e1e19b9334cb0d370432f79539",
+      "image_stats.json": "67603efc7c48490da05a0a225d0a5be3b882dd06e1d80d5a3113debc9e18b3b3",
+      "cohort.csv": "d6cf41aed815cf4551e8f13aa834344648b93287bd2f992d004fd586dbb74166",
+      "train_image_manifest.csv": "7f176a8f9a15b456b2d19c7b2bea20b7c65621372be8cf50f2e81e6b9937573f",
+      "val_image_manifest.csv": "95c260a5b6471edf1bf0e1f7683d2b09cc99f4ab62ca7039111486e218251645",
+      "test_image_manifest.csv": "373eb14eddb6e6e911b9620929afddd784f77d2cb020e36bbfe47daa794d757a"
+    },
+    "source_sha256": {
+      "unimodal_experiments.py": "8d7e3750f15a7e5bce3ccc38ad6eaf555057cb8c0f0a866bb5ee6e1a1cd5ce24",
+      "multimodal_mil_model.py": "184997b7b0ea78edc4e2c2c51f5f1249bc82d0e561c3be6c72e39207a02685b3",
+      "training.py": "bcc2b4c5ca64bf2e1468805ad20039c92753bfac97804d4401ded38a254003bf",
+      "experiment_runner.py": "f6b3c800d428eb9fb57c21077d73735655bd0ec4e997af38d608e37249d4b262",
+      "experiment_evaluation.py": "f20ebf35aadd8b449be682b8e5f06c17ecd087b7ca19a6d4e6326230de6f6693",
+      "image_preprocessing.py": "68577012f6c864489a280d887c3152b67acb1db88e35fa1fcf365c3509cc7a1d",
+      "mil_diagnostics.py": "0ee15ceb003d08f3999a70cf2ae3e9bf4b96631ca3d210c1dc4136e1cd6bff5c"
+    },
+    "initialization": "fresh independent model; ImageNet weights only for image backbone; no reference model_state loaded",
+    "design": "fixed winning multimodal hyperparameters, no unimodal hyperparameter search"
+  },
+  "fingerprint": "c793b643c5741bfa0126889a006efba588de7fbfdf9f6b604e07d9f5aa635cc8"
+}

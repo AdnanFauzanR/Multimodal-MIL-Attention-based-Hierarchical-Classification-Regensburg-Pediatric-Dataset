@@ -1,0 +1,230 @@
+{
+  "scenario": {
+    "scenario_id": "S12_scratch_sgd_P4",
+    "regime": "scratch",
+    "pretrained": false,
+    "freeze_backbone": false,
+    "optimizer": "sgd",
+    "profile": "P4",
+    "lr": 0.0001,
+    "dropout_rate": 0.7,
+    "weight_decay": 0.0001,
+    "backbone_lr_multiplier": 1.0,
+    "effective_backbone_lr": 0.0001
+  },
+  "model": {
+    "num_tabular_features": 53,
+    "use_dropout": true,
+    "dropout_rate": 0.7,
+    "backbone": "resnet18",
+    "pretrained": false,
+    "freeze_backbone": false,
+    "backbone_trainable_stage": null,
+    "image_embed_dim": null,
+    "image_dropout": 0.7,
+    "aggregation": "attention",
+    "attention_fusion": "dual",
+    "attention_dim": 128,
+    "attention_gated": true,
+    "attention_dropout": 0.7,
+    "lstm_hidden": 256,
+    "lstm_layers": 1,
+    "lstm_bidirectional": false,
+    "lstm_dropout": 0.7,
+    "tabular_encoder": "mlp",
+    "tabular_embed_dim": 64,
+    "mlp_hidden_dims": [
+      128
+    ],
+    "mlp_dropout": 0.7,
+    "tabnet_n_steps": 5,
+    "tabnet_gamma": 1.5,
+    "tabnet_n_shared": 2,
+    "tabnet_n_independent": 2,
+    "tabnet_virtual_batch_size": 128,
+    "tabnet_momentum": 0.02,
+    "fusion_hidden_dims": [
+      256,
+      64
+    ],
+    "fusion_dropout": 0.7,
+    "head": "dual_head",
+    "complication_loss_weight": 1.0,
+    "tabnet_sparsity_weight": 0.0
+  },
+  "optimizer": {
+    "name": "sgd",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "backbone_lr_multiplier": 1.0,
+    "momentum": 0.9,
+    "nesterov": true,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "no_decay_bias_norm": true
+  },
+  "training": {
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 16,
+    "num_workers": 0,
+    "use_amp": true,
+    "monitor": "val_f1",
+    "patience": 25,
+    "min_delta": 0.0,
+    "threshold": 0.5,
+    "early_stopping_rule": "best_monitor",
+    "test_bootstrap_resamples": 1000,
+    "device": "cuda",
+    "save_plots": true,
+    "verbose": true
+  },
+  "shared_artifacts": {
+    "split_manifest.csv": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\split_manifest.csv",
+      "sha256": "717768b1527cedcf8a6036987765b2ded6e32e56b0f2d0f34f45d3e65af077ff"
+    },
+    "split_protocol.json": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\split_protocol.json",
+      "sha256": "aba45a84910d660c5d9aaee5e09b517d4f88bb1d9ea15ed2567dc8470161754a"
+    },
+    "tabular_preprocessing.joblib": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\tabular_preprocessing.joblib",
+      "sha256": "f0e52631aef2bd386ccbcce87a0c7ed5c17823e1e19b9334cb0d370432f79539"
+    },
+    "image_stats.json": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\image_stats.json",
+      "sha256": "67603efc7c48490da05a0a225d0a5be3b882dd06e1d80d5a3113debc9e18b3b3"
+    },
+    "image_integrity.csv": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\image_integrity.csv",
+      "sha256": "58de07a9f8d20c53700ab3db0d32e23fb0f810976d01242ed2da292add8eb6d0"
+    },
+    "feature_dictionary.csv": {
+      "path": "D:\\Kuliah\\Magister\\Semester 1\\Topik Dalam Pengolahan Citra Digital\\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\\experiments\\Experiment 1\\runs\\search_20261018_044822_847109_seed1\\feature_dictionary.csv",
+      "sha256": "317e8e3fad44f8e510f37563da2404fb6f81aebe2e1eeb775b9af9b2932e4771"
+    },
+    "search_fingerprint": "5ea2f900193fbf06cf30dfd8d1c69ead8534c5690a132979d40c42f378c50205"
+  },
+  "auroc_definition": "macro_one_vs_rest_three_classes",
+  "parameters": {
+    "total": 11783150,
+    "trainable": 11783150,
+    "backbone": 11176512,
+    "image_proj": 0,
+    "aggregator": 262914,
+    "tabular": 15274,
+    "fusion_diagnosis": 164160,
+    "fusion_complication": 164160,
+    "head_diagnosis": 65,
+    "head_complication": 65
+  },
+  "optimizer_groups": [
+    {
+      "name": "head",
+      "lr": 0.0001,
+      "weight_decay": 0.0001
+    },
+    {
+      "name": "head_no_decay",
+      "lr": 0.0001,
+      "weight_decay": 0.0
+    },
+    {
+      "name": "backbone",
+      "lr": 0.0001,
+      "weight_decay": 0.0001
+    },
+    {
+      "name": "backbone_no_decay",
+      "lr": 0.0001,
+      "weight_decay": 0.0
+    }
+  ]
+}
+Epoch 01/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.3969 | acc 0.3261 | prec 0.3204 | sens 0.3272 | spec 0.6584 | F1 0.3093 | AUROC 0.4969
+  val   | loss 1.3855 | acc 0.3333 | prec 0.1123 | sens 0.3229 | spec 0.6596 | F1 0.1667 | AUROC 0.4650  *terbaik*
+Epoch 02/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.3801 | acc 0.3451 | prec 0.3347 | sens 0.3375 | spec 0.6665 | F1 0.3264 | AUROC 0.4948
+  val   | loss 1.3606 | acc 0.5054 | prec 0.3352 | sens 0.3438 | spec 0.6754 | F1 0.2435 | AUROC 0.4871  *terbaik*
+Epoch 03/100 | lr 1.0e-04 | 8.7 dtk
+  train | loss 1.3614 | acc 0.3750 | prec 0.3256 | sens 0.3233 | spec 0.6686 | F1 0.3239 | AUROC 0.4856
+  val   | loss 1.3396 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4689
+Epoch 04/100 | lr 1.0e-04 | 9.0 dtk
+  train | loss 1.3398 | acc 0.3995 | prec 0.3428 | sens 0.3447 | spec 0.6729 | F1 0.3425 | AUROC 0.5156
+  val   | loss 1.3233 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4730
+Epoch 05/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.3547 | acc 0.3478 | prec 0.2794 | sens 0.2800 | spec 0.6432 | F1 0.2779 | AUROC 0.4547
+  val   | loss 1.3095 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4743
+Epoch 06/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.3251 | acc 0.4076 | prec 0.2992 | sens 0.3118 | spec 0.6608 | F1 0.2987 | AUROC 0.4939
+  val   | loss 1.2990 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4872
+Epoch 07/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.3170 | acc 0.3859 | prec 0.2891 | sens 0.2991 | spec 0.6542 | F1 0.2897 | AUROC 0.4937
+  val   | loss 1.2850 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4784
+Epoch 08/100 | lr 1.0e-04 | 9.1 dtk
+  train | loss 1.2996 | acc 0.4565 | prec 0.3535 | sens 0.3450 | spec 0.6762 | F1 0.3254 | AUROC 0.5169
+  val   | loss 1.2739 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4925
+Epoch 09/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.2817 | acc 0.4321 | prec 0.3084 | sens 0.3181 | spec 0.6571 | F1 0.2879 | AUROC 0.5171
+  val   | loss 1.2629 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4979
+Epoch 10/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.2984 | acc 0.4728 | prec 0.3634 | sens 0.3518 | spec 0.6820 | F1 0.3192 | AUROC 0.4887
+  val   | loss 1.2566 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5031
+Epoch 11/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.2782 | acc 0.4402 | prec 0.3091 | sens 0.3213 | spec 0.6595 | F1 0.2821 | AUROC 0.5127
+  val   | loss 1.2487 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5065
+Epoch 12/100 | lr 1.0e-04 | 9.2 dtk
+  train | loss 1.2879 | acc 0.4592 | prec 0.3173 | sens 0.3286 | spec 0.6651 | F1 0.2806 | AUROC 0.4815
+  val   | loss 1.2424 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.4990
+Epoch 13/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.2874 | acc 0.4837 | prec 0.3876 | sens 0.3535 | spec 0.6781 | F1 0.3066 | AUROC 0.4712
+  val   | loss 1.2374 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5053
+Epoch 14/100 | lr 1.0e-04 | 9.0 dtk
+  train | loss 1.2871 | acc 0.4592 | prec 0.2944 | sens 0.3233 | spec 0.6669 | F1 0.2687 | AUROC 0.4772
+  val   | loss 1.2324 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5065
+Epoch 15/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.2507 | acc 0.4810 | prec 0.2968 | sens 0.3362 | spec 0.6720 | F1 0.2727 | AUROC 0.5304
+  val   | loss 1.2274 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5084
+Epoch 16/100 | lr 1.0e-04 | 9.3 dtk
+  train | loss 1.2753 | acc 0.4429 | prec 0.2879 | sens 0.3155 | spec 0.6568 | F1 0.2616 | AUROC 0.5060
+  val   | loss 1.2248 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5042
+Epoch 17/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.2422 | acc 0.4783 | prec 0.3295 | sens 0.3352 | spec 0.6688 | F1 0.2705 | AUROC 0.5339
+  val   | loss 1.2214 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5058
+Epoch 18/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.2424 | acc 0.4484 | prec 0.2719 | sens 0.3132 | spec 0.6536 | F1 0.2449 | AUROC 0.5053
+  val   | loss 1.2173 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5077
+Epoch 19/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.2601 | acc 0.4728 | prec 0.2712 | sens 0.3281 | spec 0.6688 | F1 0.2492 | AUROC 0.4982
+  val   | loss 1.2141 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5093
+Epoch 20/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.2777 | acc 0.4647 | prec 0.2532 | sens 0.3199 | spec 0.6603 | F1 0.2387 | AUROC 0.4674
+  val   | loss 1.2112 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5128
+Epoch 21/100 | lr 1.0e-04 | 9.6 dtk
+  train | loss 1.2527 | acc 0.4728 | prec 0.2688 | sens 0.3245 | spec 0.6615 | F1 0.2442 | AUROC 0.5095
+  val   | loss 1.2102 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5130
+Epoch 22/100 | lr 1.0e-04 | 8.8 dtk
+  train | loss 1.2450 | acc 0.4701 | prec 0.2729 | sens 0.3252 | spec 0.6618 | F1 0.2469 | AUROC 0.5245
+  val   | loss 1.2083 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5148
+Epoch 23/100 | lr 1.0e-04 | 9.0 dtk
+  train | loss 1.2407 | acc 0.5054 | prec 0.3377 | sens 0.3498 | spec 0.6820 | F1 0.2730 | AUROC 0.5210
+  val   | loss 1.2068 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5144
+Epoch 24/100 | lr 1.0e-04 | 8.7 dtk
+  train | loss 1.2564 | acc 0.4701 | prec 0.2580 | sens 0.3220 | spec 0.6604 | F1 0.2401 | AUROC 0.4904
+  val   | loss 1.2063 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5099
+Epoch 25/100 | lr 1.0e-04 | 8.9 dtk
+  train | loss 1.2376 | acc 0.4837 | prec 0.3557 | sens 0.3366 | spec 0.6678 | F1 0.2563 | AUROC 0.5283
+  val   | loss 1.2052 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5090
+Epoch 26/100 | lr 1.0e-04 | 8.7 dtk
+  train | loss 1.2380 | acc 0.4810 | prec 0.3245 | sens 0.3320 | spec 0.6661 | F1 0.2497 | AUROC 0.5328
+  val   | loss 1.2020 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5062
+Epoch 27/100 | lr 1.0e-04 | 8.7 dtk
+  train | loss 1.2687 | acc 0.4810 | prec 0.2829 | sens 0.3292 | spec 0.6666 | F1 0.2445 | AUROC 0.4671
+  val   | loss 1.2018 | acc 0.4946 | prec 0.1649 | sens 0.3333 | spec 0.6667 | F1 0.2206 | AUROC 0.5059
+Early stopping pada epoch 27: val_f1 tidak memperbaiki best historis selama 25 epoch (min_delta=0).
+
+Selesai. Epoch terbaik: 2 (val_f1 = 0.2435) -> d:\Kuliah\Magister\Semester 1\Topik Dalam Pengolahan Citra Digital\Multimodal MIL-Attention based Hierarchical Classification Regensburg Pediatric Dataset\experiments\Experiment 1\runs\search_20261018_044822_847109_seed1\trials\S12_scratch_sgd_P4\best_model.pt

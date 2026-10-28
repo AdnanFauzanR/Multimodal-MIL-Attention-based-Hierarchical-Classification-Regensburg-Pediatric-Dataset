@@ -1,0 +1,4 @@
+variant,run,best_epoch,val_macro_f1,test_status
+softmax,softmax_s26_20261018_124547_805592_seed1,12,0.8189855981768748,Tersedia
+diagnosis,diagnosis_s26_20261018_130009_315497_seed1,10,0.9304586241276172,Tersedia
+severity,severity_s26_20261018_131009_015915_seed1,8,0.8807692307692307,Tersedia

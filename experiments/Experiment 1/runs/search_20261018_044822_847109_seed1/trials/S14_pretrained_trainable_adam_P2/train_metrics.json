@@ -1,0 +1,116 @@
+{
+  "split": "train",
+  "patients": 369,
+  "threshold": 0.5,
+  "auroc_definition": "macro_one_vs_rest_three_classes",
+  "class_order": [
+    "no appendicitis",
+    "uncomplicated_appendicitis",
+    "complicated_appendicitis"
+  ],
+  "auroc": 1.0,
+  "diagnosis_auroc": 1.0,
+  "severity_auroc": 1.0,
+  "overall": {
+    "accuracy": 0.991869918699187,
+    "precision": 0.9921875,
+    "sensitivity": 0.9945054945054945,
+    "specificity": 0.9959016393442623,
+    "f1": 0.9932773477275464,
+    "confusion_matrix": [
+      [
+        125,
+        0,
+        0
+      ],
+      [
+        3,
+        179,
+        0
+      ],
+      [
+        0,
+        0,
+        62
+      ]
+    ]
+  },
+  "argmax": {
+    "accuracy": 0.991869918699187,
+    "precision": 0.9921875,
+    "sensitivity": 0.9945054945054945,
+    "specificity": 0.9959016393442623,
+    "f1": 0.9932773477275464,
+    "confusion_matrix": [
+      [
+        125,
+        0,
+        0
+      ],
+      [
+        3,
+        179,
+        0
+      ],
+      [
+        0,
+        0,
+        62
+      ]
+    ]
+  },
+  "diagnosis": {
+    "accuracy": 0.991869918699187,
+    "precision": 1.0,
+    "sensitivity": 0.9877049180327869,
+    "specificity": 1.0,
+    "f1": 0.9938144329896906,
+    "support_positive": 244,
+    "support_negative": 125,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "brier": 0.004063028348610054,
+    "confusion_matrix": [
+      [
+        125,
+        0
+      ],
+      [
+        3,
+        241
+      ]
+    ]
+  },
+  "severity_direct_true_appendicitis": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "support_positive": 62,
+    "support_negative": 182,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "brier": 0.00102139341980925,
+    "confusion_matrix": [
+      [
+        182,
+        0
+      ],
+      [
+        0,
+        62
+      ]
+    ]
+  },
+  "severity_after_gating_true_appendicitis": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "f1": 1.0,
+    "support_positive": 62,
+    "support_negative": 182
+  },
+  "checkpoint_sha256": "9daf239a8d9e8c0c555fc8134437412444dd594d6a434533338438b48f56021c"
+}

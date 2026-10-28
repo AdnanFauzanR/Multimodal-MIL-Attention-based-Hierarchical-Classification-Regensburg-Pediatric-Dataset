@@ -1,0 +1,10 @@
+{
+  "total": 11487468,
+  "trainable": 310956,
+  "backbone": 11176512,
+  "image_proj": 0,
+  "tabular": 15274,
+  "pool": 131457,
+  "fusion": 164160,
+  "head": 65
+}

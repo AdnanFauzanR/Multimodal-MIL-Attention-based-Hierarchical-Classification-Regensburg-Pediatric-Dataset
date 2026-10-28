@@ -1,0 +1,11 @@
+{
+  "total": 11735108,
+  "trainable": 558596,
+  "backbone": 11176512,
+  "image_proj": 0,
+  "aggregator": 262914,
+  "fusion_diagnosis": 147776,
+  "fusion_complication": 147776,
+  "head_diagnosis": 65,
+  "head_complication": 65
+}

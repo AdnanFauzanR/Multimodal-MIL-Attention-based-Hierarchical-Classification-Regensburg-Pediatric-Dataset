@@ -1,0 +1,12 @@
+{
+  "not_predictors": [
+    "Diagnosis",
+    "Diagnosis_Presumptive",
+    "Label",
+    "Management",
+    "Severity",
+    "US_Number"
+  ],
+  "additional_excluded_features": [],
+  "feature_policy": "reference_53_including_Length_of_Stay"
+}

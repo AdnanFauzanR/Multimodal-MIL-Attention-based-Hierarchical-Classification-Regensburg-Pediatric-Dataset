@@ -1,0 +1,579 @@
+patient_id,label,split,order
+1,no appendicitis,train,0
+332,no appendicitis,train,1
+575,uncomplicated_appendicitis,train,2
+238,complicated_appendicitis,train,3
+953,uncomplicated_appendicitis,train,4
+198,uncomplicated_appendicitis,train,5
+430,no appendicitis,train,6
+335,complicated_appendicitis,train,7
+916,no appendicitis,train,8
+616,no appendicitis,train,9
+278,no appendicitis,train,10
+905,uncomplicated_appendicitis,train,11
+601,uncomplicated_appendicitis,train,12
+271,no appendicitis,train,13
+547,no appendicitis,train,14
+887,uncomplicated_appendicitis,train,15
+253,complicated_appendicitis,train,16
+47,uncomplicated_appendicitis,train,17
+564,uncomplicated_appendicitis,train,18
+181,uncomplicated_appendicitis,train,19
+128,uncomplicated_appendicitis,train,20
+326,no appendicitis,train,21
+421,no appendicitis,train,22
+432,no appendicitis,train,23
+14,uncomplicated_appendicitis,train,24
+454,complicated_appendicitis,train,25
+721,no appendicitis,train,26
+884,no appendicitis,train,27
+207,uncomplicated_appendicitis,train,28
+532,complicated_appendicitis,train,29
+107,uncomplicated_appendicitis,train,30
+80,uncomplicated_appendicitis,train,31
+62,uncomplicated_appendicitis,train,32
+92,uncomplicated_appendicitis,train,33
+890,no appendicitis,train,34
+28,uncomplicated_appendicitis,train,35
+802,uncomplicated_appendicitis,train,36
+981,uncomplicated_appendicitis,train,37
+520,uncomplicated_appendicitis,train,38
+494,complicated_appendicitis,train,39
+377,no appendicitis,train,40
+597,uncomplicated_appendicitis,train,41
+38,uncomplicated_appendicitis,train,42
+565,uncomplicated_appendicitis,train,43
+462,complicated_appendicitis,train,44
+66,uncomplicated_appendicitis,train,45
+572,complicated_appendicitis,train,46
+202,uncomplicated_appendicitis,train,47
+534,uncomplicated_appendicitis,train,48
+609,no appendicitis,train,49
+940,no appendicitis,train,50
+463,uncomplicated_appendicitis,train,51
+239,uncomplicated_appendicitis,train,52
+126,uncomplicated_appendicitis,train,53
+496,complicated_appendicitis,train,54
+268,no appendicitis,train,55
+497,complicated_appendicitis,train,56
+954,no appendicitis,train,57
+645,uncomplicated_appendicitis,train,58
+452,complicated_appendicitis,train,59
+606,uncomplicated_appendicitis,train,60
+417,no appendicitis,train,61
+455,complicated_appendicitis,train,62
+313,no appendicitis,train,63
+380,no appendicitis,train,64
+64,uncomplicated_appendicitis,train,65
+359,complicated_appendicitis,train,66
+566,uncomplicated_appendicitis,train,67
+476,uncomplicated_appendicitis,train,68
+803,no appendicitis,train,69
+446,complicated_appendicitis,train,70
+963,no appendicitis,train,71
+223,no appendicitis,train,72
+11,uncomplicated_appendicitis,train,73
+500,uncomplicated_appendicitis,train,74
+67,uncomplicated_appendicitis,train,75
+911,uncomplicated_appendicitis,train,76
+186,uncomplicated_appendicitis,train,77
+886,no appendicitis,train,78
+595,no appendicitis,train,79
+904,uncomplicated_appendicitis,train,80
+379,no appendicitis,train,81
+124,uncomplicated_appendicitis,train,82
+486,uncomplicated_appendicitis,train,83
+175,uncomplicated_appendicitis,train,84
+114,uncomplicated_appendicitis,train,85
+304,complicated_appendicitis,train,86
+672,uncomplicated_appendicitis,train,87
+485,complicated_appendicitis,train,88
+252,complicated_appendicitis,train,89
+946,no appendicitis,train,90
+351,complicated_appendicitis,train,91
+903,no appendicitis,train,92
+222,complicated_appendicitis,train,93
+309,no appendicitis,train,94
+48,no appendicitis,train,95
+542,complicated_appendicitis,train,96
+548,uncomplicated_appendicitis,train,97
+285,complicated_appendicitis,train,98
+43,uncomplicated_appendicitis,train,99
+366,no appendicitis,train,100
+560,complicated_appendicitis,train,101
+799,no appendicitis,train,102
+426,no appendicitis,train,103
+34,uncomplicated_appendicitis,train,104
+475,uncomplicated_appendicitis,train,105
+419,no appendicitis,train,106
+287,no appendicitis,train,107
+350,complicated_appendicitis,train,108
+769,no appendicitis,train,109
+310,no appendicitis,train,110
+44,uncomplicated_appendicitis,train,111
+215,uncomplicated_appendicitis,train,112
+42,uncomplicated_appendicitis,train,113
+933,uncomplicated_appendicitis,train,114
+91,uncomplicated_appendicitis,train,115
+567,complicated_appendicitis,train,116
+504,complicated_appendicitis,train,117
+46,uncomplicated_appendicitis,train,118
+894,uncomplicated_appendicitis,train,119
+592,uncomplicated_appendicitis,train,120
+30,uncomplicated_appendicitis,train,121
+399,no appendicitis,train,122
+921,uncomplicated_appendicitis,train,123
+159,uncomplicated_appendicitis,train,124
+429,no appendicitis,train,125
+270,uncomplicated_appendicitis,train,126
+104,uncomplicated_appendicitis,train,127
+539,uncomplicated_appendicitis,train,128
+925,uncomplicated_appendicitis,train,129
+255,no appendicitis,train,130
+550,uncomplicated_appendicitis,train,131
+449,complicated_appendicitis,train,132
+551,uncomplicated_appendicitis,train,133
+635,no appendicitis,train,134
+529,uncomplicated_appendicitis,train,135
+505,uncomplicated_appendicitis,train,136
+41,uncomplicated_appendicitis,train,137
+192,uncomplicated_appendicitis,train,138
+962,no appendicitis,train,139
+451,complicated_appendicitis,train,140
+191,uncomplicated_appendicitis,train,141
+156,uncomplicated_appendicitis,train,142
+896,no appendicitis,train,143
+643,no appendicitis,train,144
+412,no appendicitis,train,145
+420,no appendicitis,train,146
+393,no appendicitis,train,147
+927,uncomplicated_appendicitis,train,148
+891,no appendicitis,train,149
+697,uncomplicated_appendicitis,train,150
+374,no appendicitis,train,151
+748,uncomplicated_appendicitis,train,152
+481,complicated_appendicitis,train,153
+615,no appendicitis,train,154
+170,uncomplicated_appendicitis,train,155
+781,uncomplicated_appendicitis,train,156
+111,uncomplicated_appendicitis,train,157
+334,complicated_appendicitis,train,158
+355,no appendicitis,train,159
+660,uncomplicated_appendicitis,train,160
+545,uncomplicated_appendicitis,train,161
+152,uncomplicated_appendicitis,train,162
+523,complicated_appendicitis,train,163
+259,complicated_appendicitis,train,164
+208,uncomplicated_appendicitis,train,165
+37,uncomplicated_appendicitis,train,166
+297,no appendicitis,train,167
+774,complicated_appendicitis,train,168
+179,uncomplicated_appendicitis,train,169
+29,uncomplicated_appendicitis,train,170
+158,uncomplicated_appendicitis,train,171
+444,complicated_appendicitis,train,172
+913,no appendicitis,train,173
+724,no appendicitis,train,174
+613,no appendicitis,train,175
+408,no appendicitis,train,176
+70,uncomplicated_appendicitis,train,177
+506,complicated_appendicitis,train,178
+132,uncomplicated_appendicitis,train,179
+341,no appendicitis,train,180
+888,no appendicitis,train,181
+12,uncomplicated_appendicitis,train,182
+52,uncomplicated_appendicitis,train,183
+988,no appendicitis,train,184
+477,uncomplicated_appendicitis,train,185
+512,uncomplicated_appendicitis,train,186
+938,uncomplicated_appendicitis,train,187
+622,uncomplicated_appendicitis,train,188
+522,complicated_appendicitis,train,189
+893,uncomplicated_appendicitis,train,190
+751,uncomplicated_appendicitis,train,191
+269,no appendicitis,train,192
+256,no appendicitis,train,193
+86,uncomplicated_appendicitis,train,194
+216,no appendicitis,train,195
+926,no appendicitis,train,196
+587,no appendicitis,train,197
+16,uncomplicated_appendicitis,train,198
+701,uncomplicated_appendicitis,train,199
+445,complicated_appendicitis,train,200
+117,complicated_appendicitis,train,201
+180,uncomplicated_appendicitis,train,202
+317,no appendicitis,train,203
+24,uncomplicated_appendicitis,train,204
+589,no appendicitis,train,205
+603,no appendicitis,train,206
+264,no appendicitis,train,207
+439,no appendicitis,train,208
+491,uncomplicated_appendicitis,train,209
+469,uncomplicated_appendicitis,train,210
+801,uncomplicated_appendicitis,train,211
+382,no appendicitis,train,212
+160,uncomplicated_appendicitis,train,213
+924,uncomplicated_appendicitis,train,214
+84,uncomplicated_appendicitis,train,215
+555,uncomplicated_appendicitis,train,216
+89,no appendicitis,train,217
+78,uncomplicated_appendicitis,train,218
+777,uncomplicated_appendicitis,train,219
+123,complicated_appendicitis,train,220
+909,uncomplicated_appendicitis,train,221
+81,uncomplicated_appendicitis,train,222
+196,uncomplicated_appendicitis,train,223
+543,complicated_appendicitis,train,224
+3,no appendicitis,train,225
+955,uncomplicated_appendicitis,train,226
+118,uncomplicated_appendicitis,train,227
+250,no appendicitis,train,228
+376,no appendicitis,train,229
+652,no appendicitis,train,230
+642,no appendicitis,train,231
+77,uncomplicated_appendicitis,train,232
+213,no appendicitis,train,233
+9,uncomplicated_appendicitis,train,234
+516,uncomplicated_appendicitis,train,235
+232,no appendicitis,train,236
+96,uncomplicated_appendicitis,train,237
+602,uncomplicated_appendicitis,train,238
+68,uncomplicated_appendicitis,train,239
+467,uncomplicated_appendicitis,train,240
+695,no appendicitis,train,241
+558,complicated_appendicitis,train,242
+151,uncomplicated_appendicitis,train,243
+992,uncomplicated_appendicitis,train,244
+103,uncomplicated_appendicitis,train,245
+243,no appendicitis,train,246
+586,no appendicitis,train,247
+461,complicated_appendicitis,train,248
+700,no appendicitis,train,249
+480,complicated_appendicitis,train,250
+468,uncomplicated_appendicitis,train,251
+740,uncomplicated_appendicitis,train,252
+13,no appendicitis,train,253
+31,no appendicitis,train,254
+242,no appendicitis,train,255
+83,uncomplicated_appendicitis,train,256
+749,uncomplicated_appendicitis,train,257
+330,no appendicitis,train,258
+327,no appendicitis,train,259
+665,no appendicitis,train,260
+754,no appendicitis,train,261
+415,no appendicitis,train,262
+756,uncomplicated_appendicitis,train,263
+279,complicated_appendicitis,train,264
+538,uncomplicated_appendicitis,train,265
+331,no appendicitis,train,266
+790,uncomplicated_appendicitis,train,267
+563,complicated_appendicitis,train,268
+918,uncomplicated_appendicitis,train,269
+922,no appendicitis,train,270
+210,no appendicitis,train,271
+164,uncomplicated_appendicitis,train,272
+188,uncomplicated_appendicitis,train,273
+88,uncomplicated_appendicitis,train,274
+973,uncomplicated_appendicitis,train,275
+87,uncomplicated_appendicitis,train,276
+745,no appendicitis,train,277
+939,uncomplicated_appendicitis,train,278
+472,uncomplicated_appendicitis,train,279
+515,complicated_appendicitis,train,280
+473,uncomplicated_appendicitis,train,281
+177,uncomplicated_appendicitis,train,282
+85,complicated_appendicitis,train,283
+604,uncomplicated_appendicitis,train,284
+464,complicated_appendicitis,train,285
+786,no appendicitis,train,286
+930,uncomplicated_appendicitis,train,287
+794,no appendicitis,train,288
+525,uncomplicated_appendicitis,train,289
+272,no appendicitis,train,290
+119,uncomplicated_appendicitis,train,291
+620,uncomplicated_appendicitis,train,292
+528,uncomplicated_appendicitis,train,293
+291,no appendicitis,train,294
+339,no appendicitis,train,295
+559,uncomplicated_appendicitis,train,296
+524,complicated_appendicitis,train,297
+370,no appendicitis,train,298
+319,no appendicitis,train,299
+336,no appendicitis,train,300
+308,no appendicitis,train,301
+267,no appendicitis,train,302
+338,complicated_appendicitis,train,303
+474,complicated_appendicitis,train,304
+17,uncomplicated_appendicitis,train,305
+182,uncomplicated_appendicitis,train,306
+345,no appendicitis,train,307
+782,no appendicitis,train,308
+109,uncomplicated_appendicitis,train,309
+952,no appendicitis,train,310
+315,no appendicitis,train,311
+509,uncomplicated_appendicitis,train,312
+492,complicated_appendicitis,train,313
+212,no appendicitis,train,314
+510,uncomplicated_appendicitis,train,315
+340,no appendicitis,train,316
+358,uncomplicated_appendicitis,train,317
+95,uncomplicated_appendicitis,train,318
+157,uncomplicated_appendicitis,train,319
+226,complicated_appendicitis,train,320
+583,no appendicitis,train,321
+450,complicated_appendicitis,train,322
+368,no appendicitis,train,323
+224,no appendicitis,train,324
+299,complicated_appendicitis,train,325
+936,uncomplicated_appendicitis,train,326
+174,uncomplicated_appendicitis,train,327
+441,complicated_appendicitis,train,328
+453,complicated_appendicitis,train,329
+116,uncomplicated_appendicitis,train,330
+928,uncomplicated_appendicitis,train,331
+154,uncomplicated_appendicitis,train,332
+101,uncomplicated_appendicitis,train,333
+761,uncomplicated_appendicitis,train,334
+553,uncomplicated_appendicitis,train,335
+323,no appendicitis,train,336
+945,no appendicitis,train,337
+458,complicated_appendicitis,train,338
+771,uncomplicated_appendicitis,train,339
+74,uncomplicated_appendicitis,train,340
+457,complicated_appendicitis,train,341
+185,uncomplicated_appendicitis,train,342
+942,no appendicitis,train,343
+354,no appendicitis,train,344
+614,no appendicitis,train,345
+290,complicated_appendicitis,train,346
+459,complicated_appendicitis,train,347
+460,complicated_appendicitis,train,348
+168,uncomplicated_appendicitis,train,349
+562,complicated_appendicitis,train,350
+73,uncomplicated_appendicitis,train,351
+137,uncomplicated_appendicitis,train,352
+26,uncomplicated_appendicitis,train,353
+976,no appendicitis,train,354
+683,uncomplicated_appendicitis,train,355
+138,uncomplicated_appendicitis,train,356
+35,uncomplicated_appendicitis,train,357
+661,no appendicitis,train,358
+19,uncomplicated_appendicitis,train,359
+280,no appendicitis,train,360
+383,no appendicitis,train,361
+329,no appendicitis,train,362
+115,uncomplicated_appendicitis,train,363
+484,uncomplicated_appendicitis,train,364
+51,uncomplicated_appendicitis,train,365
+56,uncomplicated_appendicitis,train,366
+466,uncomplicated_appendicitis,train,367
+125,uncomplicated_appendicitis,train,368
+971,no appendicitis,val,0
+79,uncomplicated_appendicitis,val,1
+100,uncomplicated_appendicitis,val,2
+411,no appendicitis,val,3
+989,uncomplicated_appendicitis,val,4
+7,no appendicitis,val,5
+342,no appendicitis,val,6
+716,no appendicitis,val,7
+628,no appendicitis,val,8
+348,no appendicitis,val,9
+929,no appendicitis,val,10
+20,no appendicitis,val,11
+344,no appendicitis,val,12
+882,uncomplicated_appendicitis,val,13
+465,complicated_appendicitis,val,14
+943,no appendicitis,val,15
+530,uncomplicated_appendicitis,val,16
+288,complicated_appendicitis,val,17
+443,uncomplicated_appendicitis,val,18
+435,no appendicitis,val,19
+805,no appendicitis,val,20
+283,no appendicitis,val,21
+591,uncomplicated_appendicitis,val,22
+65,uncomplicated_appendicitis,val,23
+951,no appendicitis,val,24
+356,no appendicitis,val,25
+72,no appendicitis,val,26
+537,uncomplicated_appendicitis,val,27
+750,uncomplicated_appendicitis,val,28
+585,no appendicitis,val,29
+305,no appendicitis,val,30
+950,uncomplicated_appendicitis,val,31
+947,uncomplicated_appendicitis,val,32
+625,uncomplicated_appendicitis,val,33
+569,complicated_appendicitis,val,34
+571,complicated_appendicitis,val,35
+517,complicated_appendicitis,val,36
+507,uncomplicated_appendicitis,val,37
+738,uncomplicated_appendicitis,val,38
+357,complicated_appendicitis,val,39
+570,uncomplicated_appendicitis,val,40
+75,uncomplicated_appendicitis,val,41
+33,uncomplicated_appendicitis,val,42
+209,complicated_appendicitis,val,43
+322,no appendicitis,val,44
+190,uncomplicated_appendicitis,val,45
+205,uncomplicated_appendicitis,val,46
+703,no appendicitis,val,47
+54,uncomplicated_appendicitis,val,48
+479,complicated_appendicitis,val,49
+711,no appendicitis,val,50
+490,uncomplicated_appendicitis,val,51
+991,no appendicitis,val,52
+249,uncomplicated_appendicitis,val,53
+556,uncomplicated_appendicitis,val,54
+289,complicated_appendicitis,val,55
+675,uncomplicated_appendicitis,val,56
+546,uncomplicated_appendicitis,val,57
+447,uncomplicated_appendicitis,val,58
+806,uncomplicated_appendicitis,val,59
+935,uncomplicated_appendicitis,val,60
+178,uncomplicated_appendicitis,val,61
+978,no appendicitis,val,62
+197,uncomplicated_appendicitis,val,63
+274,complicated_appendicitis,val,64
+200,uncomplicated_appendicitis,val,65
+4,uncomplicated_appendicitis,val,66
+106,uncomplicated_appendicitis,val,67
+488,complicated_appendicitis,val,68
+691,uncomplicated_appendicitis,val,69
+735,uncomplicated_appendicitis,val,70
+90,uncomplicated_appendicitis,val,71
+365,complicated_appendicitis,val,72
+626,uncomplicated_appendicitis,val,73
+227,no appendicitis,val,74
+895,no appendicitis,val,75
+10,uncomplicated_appendicitis,val,76
+171,uncomplicated_appendicitis,val,77
+15,uncomplicated_appendicitis,val,78
+540,complicated_appendicitis,val,79
+653,no appendicitis,val,80
+636,uncomplicated_appendicitis,val,81
+900,uncomplicated_appendicitis,val,82
+983,no appendicitis,val,83
+99,uncomplicated_appendicitis,val,84
+18,uncomplicated_appendicitis,val,85
+498,complicated_appendicitis,val,86
+361,complicated_appendicitis,val,87
+302,no appendicitis,val,88
+796,no appendicitis,val,89
+300,no appendicitis,val,90
+284,no appendicitis,val,91
+199,uncomplicated_appendicitis,val,92
+977,no appendicitis,test,0
+656,uncomplicated_appendicitis,test,1
+593,no appendicitis,test,2
+211,uncomplicated_appendicitis,test,3
+518,complicated_appendicitis,test,4
+808,uncomplicated_appendicitis,test,5
+108,uncomplicated_appendicitis,test,6
+502,complicated_appendicitis,test,7
+189,uncomplicated_appendicitis,test,8
+225,no appendicitis,test,9
+508,complicated_appendicitis,test,10
+416,no appendicitis,test,11
+195,uncomplicated_appendicitis,test,12
+578,uncomplicated_appendicitis,test,13
+282,complicated_appendicitis,test,14
+531,uncomplicated_appendicitis,test,15
+221,complicated_appendicitis,test,16
+579,no appendicitis,test,17
+93,no appendicitis,test,18
+647,no appendicitis,test,19
+231,complicated_appendicitis,test,20
+162,uncomplicated_appendicitis,test,21
+130,uncomplicated_appendicitis,test,22
+487,complicated_appendicitis,test,23
+153,uncomplicated_appendicitis,test,24
+49,uncomplicated_appendicitis,test,25
+363,no appendicitis,test,26
+260,complicated_appendicitis,test,27
+266,no appendicitis,test,28
+668,no appendicitis,test,29
+499,complicated_appendicitis,test,30
+122,uncomplicated_appendicitis,test,31
+752,uncomplicated_appendicitis,test,32
+974,uncomplicated_appendicitis,test,33
+797,uncomplicated_appendicitis,test,34
+619,uncomplicated_appendicitis,test,35
+161,uncomplicated_appendicitis,test,36
+514,complicated_appendicitis,test,37
+755,no appendicitis,test,38
+807,uncomplicated_appendicitis,test,39
+712,uncomplicated_appendicitis,test,40
+949,no appendicitis,test,41
+244,complicated_appendicitis,test,42
+607,no appendicitis,test,43
+934,no appendicitis,test,44
+275,complicated_appendicitis,test,45
+187,uncomplicated_appendicitis,test,46
+295,complicated_appendicitis,test,47
+173,uncomplicated_appendicitis,test,48
+403,no appendicitis,test,49
+739,no appendicitis,test,50
+184,uncomplicated_appendicitis,test,51
+982,no appendicitis,test,52
+45,uncomplicated_appendicitis,test,53
+143,uncomplicated_appendicitis,test,54
+129,uncomplicated_appendicitis,test,55
+401,no appendicitis,test,56
+220,complicated_appendicitis,test,57
+233,no appendicitis,test,58
+240,complicated_appendicitis,test,59
+471,uncomplicated_appendicitis,test,60
+120,uncomplicated_appendicitis,test,61
+6,uncomplicated_appendicitis,test,62
+352,no appendicitis,test,63
+349,no appendicitis,test,64
+145,uncomplicated_appendicitis,test,65
+316,complicated_appendicitis,test,66
+69,uncomplicated_appendicitis,test,67
+503,uncomplicated_appendicitis,test,68
+791,uncomplicated_appendicitis,test,69
+422,uncomplicated_appendicitis,test,70
+621,no appendicitis,test,71
+511,uncomplicated_appendicitis,test,72
+298,no appendicitis,test,73
+294,no appendicitis,test,74
+82,uncomplicated_appendicitis,test,75
+321,no appendicitis,test,76
+364,complicated_appendicitis,test,77
+478,uncomplicated_appendicitis,test,78
+176,uncomplicated_appendicitis,test,79
+804,no appendicitis,test,80
+25,no appendicitis,test,81
+910,no appendicitis,test,82
+203,uncomplicated_appendicitis,test,83
+775,uncomplicated_appendicitis,test,84
+201,uncomplicated_appendicitis,test,85
+746,uncomplicated_appendicitis,test,86
+686,uncomplicated_appendicitis,test,87
+27,no appendicitis,test,88
+169,uncomplicated_appendicitis,test,89
+736,no appendicitis,test,90
+657,uncomplicated_appendicitis,test,91
+493,uncomplicated_appendicitis,test,92
+456,complicated_appendicitis,test,93
+353,no appendicitis,test,94
+312,no appendicitis,test,95
+204,uncomplicated_appendicitis,test,96
+276,no appendicitis,test,97
+397,no appendicitis,test,98
+5,no appendicitis,test,99
+362,no appendicitis,test,100
+405,no appendicitis,test,101
+759,uncomplicated_appendicitis,test,102
+533,uncomplicated_appendicitis,test,103
+965,uncomplicated_appendicitis,test,104
+112,complicated_appendicitis,test,105
+133,uncomplicated_appendicitis,test,106
+21,uncomplicated_appendicitis,test,107
+55,no appendicitis,test,108
+61,uncomplicated_appendicitis,test,109
+624,uncomplicated_appendicitis,test,110
+97,uncomplicated_appendicitis,test,111
+324,no appendicitis,test,112
+121,uncomplicated_appendicitis,test,113
+105,uncomplicated_appendicitis,test,114
+60,uncomplicated_appendicitis,test,115

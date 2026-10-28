@@ -1,0 +1,13 @@
+Model,Tugas,N,TP,TN,FP,FN,Acc %,Sens %,Spec %,PPV %,F1 positif %,AUROC %
+Multimodal,Diagnosis,116,66,35,4,11,87.07,85.71,89.74,94.29,89.80,93.34
+Multimodal,Severity langsung,77,16,52,6,3,88.31,84.21,89.66,72.73,78.05,90.02
+Multimodal,Severity setelah gating,77,16,52,6,3,88.31,84.21,89.66,72.73,78.05,90.93
+Multimodal,Complicated end-to-end,116,16,91,6,3,92.24,84.21,93.81,72.73,78.05,93.87
+MLP mandiri,Diagnosis,116,64,32,7,13,82.76,83.12,82.05,90.14,86.49,92.04
+MLP mandiri,Severity langsung,77,11,53,5,8,83.12,57.89,91.38,68.75,62.86,87.02
+MLP mandiri,Severity setelah gating,77,11,53,5,8,83.12,57.89,91.38,68.75,62.86,87.66
+MLP mandiri,Complicated end-to-end,116,11,92,5,8,88.79,57.89,94.85,68.75,62.86,91.70
+MIL-Attention mandiri,Diagnosis,116,51,23,16,26,63.79,66.23,58.97,76.12,70.83,64.80
+MIL-Attention mandiri,Severity langsung,77,4,56,2,15,77.92,21.05,96.55,66.67,32.00,67.88
+MIL-Attention mandiri,Severity setelah gating,77,3,56,2,16,76.62,15.79,96.55,60.00,25.00,70.05
+MIL-Attention mandiri,Complicated end-to-end,116,3,95,2,16,84.48,15.79,97.94,60.00,25.00,72.92

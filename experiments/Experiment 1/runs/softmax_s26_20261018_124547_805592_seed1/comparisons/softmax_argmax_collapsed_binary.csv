@@ -1,0 +1,3 @@
+model,task,source_type,status,patients,positive_cases,initializations,accuracy,precision,sensitivity,specificity,f1,macro_f1,auroc,auprc_ap,auprc_trapezoid,decision_rule,note
+softmax_argmax_collapsed,diagnosis,local_same_test_patients,evaluated,116,77,1,0.9137931034482759,0.958904109589041,0.9090909090909091,0.9230769230769231,0.9333333333333333,0.9056910569105692,0.9410589410589411,0.9752182945028516,0.9750776553408576,argmax_class>0,
+softmax_argmax_collapsed,severity,local_same_test_patients,evaluated,116,19,1,0.9224137931034483,0.7083333333333334,0.8947368421052632,0.9278350515463918,0.7906976744186046,0.8715393133997784,0.967444384156267,0.865287000807206,0.8618633276320087,argmax_class==2,

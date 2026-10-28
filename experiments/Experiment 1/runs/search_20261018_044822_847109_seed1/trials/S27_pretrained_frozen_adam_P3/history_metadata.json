@@ -1,0 +1,17 @@
+{
+  "best_epoch": 1,
+  "best_value": 0.2840434419381788,
+  "monitor": "val_f1",
+  "early_stopping_patience": 25,
+  "early_stopping_min_delta": 0.0,
+  "early_stopping_rule": "best_monitor",
+  "early_stopping_triggered": true,
+  "stopped_early": true,
+  "epochs_ran": 26,
+  "last_loss_decrease_epoch": null,
+  "early_stopping_monitor": "val_f1",
+  "last_monitor_improvement_epoch": 1,
+  "checkpoint_tie_break": "val_loss",
+  "best_checkpoint_val_loss": 1.3586182466117285,
+  "auroc_definition": "macro_one_vs_rest_three_classes"
+}

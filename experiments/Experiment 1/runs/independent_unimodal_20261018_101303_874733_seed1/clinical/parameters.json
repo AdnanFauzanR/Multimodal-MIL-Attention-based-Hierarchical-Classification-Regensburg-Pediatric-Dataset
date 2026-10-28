@@ -1,0 +1,9 @@
+{
+  "total": 81580,
+  "trainable": 81580,
+  "tabular": 15274,
+  "fusion_diagnosis": 33088,
+  "fusion_complication": 33088,
+  "head_diagnosis": 65,
+  "head_complication": 65
+}

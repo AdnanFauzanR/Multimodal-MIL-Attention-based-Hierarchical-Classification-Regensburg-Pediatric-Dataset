@@ -1,0 +1,4 @@
+,precision,sensitivity,specificity,f1,support
+no appendicitis,0.5,0.03125,0.9836065573770492,0.058823529411764705,32
+uncomplicated_appendicitis,0.5054945054945055,1.0,0.0425531914893617,0.6715328467153284,46
+complicated_appendicitis,0.0,0.0,1.0,0.0,15

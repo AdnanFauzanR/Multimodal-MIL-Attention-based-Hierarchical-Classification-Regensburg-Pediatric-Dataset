@@ -1,0 +1,4 @@
+,no appendicitis,uncomplicated_appendicitis,complicated_appendicitis
+no appendicitis,31,1,0
+uncomplicated_appendicitis,14,28,4
+complicated_appendicitis,0,4,11

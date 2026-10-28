@@ -1,0 +1,718 @@
+{
+  "status": "ok",
+  "overall": {
+    "patients": 93,
+    "accuracy": 0.8279569892473119,
+    "f1": 0.8189855981768748,
+    "macro_f1": 0.8189855981768748,
+    "precision": 0.8132028789923527,
+    "sensitivity": 0.8359601449275362,
+    "specificity": 0.9108213415852062,
+    "balanced_accuracy": 0.8359601449275362,
+    "weighted_f1": 0.8257490369433621,
+    "mcc": 0.7328892256931032,
+    "cohen_kappa": 0.7251062257528172,
+    "auroc_macro_ovr": 0.9276026989680104,
+    "auprc_macro_average_precision": 0.8513653592553876,
+    "nll_three_classes": 0.47895301112793537,
+    "brier_three_classes": 0.2843040476128532,
+    "ece_top_label_argmax_10bins": 0.09148200737532752,
+    "argmax_accuracy": 0.8279569892473119,
+    "accuracy_wilson_95ci": [
+      0.7386611476514643,
+      0.8912343613881505
+    ]
+  },
+  "per_class": [
+    {
+      "class": "no appendicitis",
+      "class_index": 0,
+      "support": 32,
+      "predicted_support": 39,
+      "tp": 31,
+      "tn": 53,
+      "fp": 8,
+      "fn": 1,
+      "precision": 0.7948717948717948,
+      "ppv": 0.7948717948717948,
+      "npv": 0.9814814814814815,
+      "sensitivity": 0.96875,
+      "specificity": 0.8688524590163934,
+      "f1": 0.8732394366197183,
+      "fpr": 0.13114754098360656,
+      "fnr": 0.03125,
+      "balanced_accuracy": 0.9188012295081966,
+      "mcc": 0.8063965608427022,
+      "auroc": 0.9508196721311475,
+      "auprc_average_precision": 0.8837697026306555,
+      "recall": 0.96875,
+      "accuracy_within_class": 0.96875,
+      "one_vs_rest_accuracy": 0.9032258064516129,
+      "recall_wilson_95ci": [
+        0.8425573617998745,
+        0.994462139835997
+      ],
+      "wilson_95ci": {
+        "accuracy": [
+          0.8262133606698858,
+          0.9482483307722633
+        ],
+        "sensitivity": [
+          0.8425573617998745,
+          0.994462139835997
+        ],
+        "specificity": [
+          0.7619811980700654,
+          0.932019227250999
+        ],
+        "ppv": [
+          0.644660319864177,
+          0.8922028176928961
+        ],
+        "npv": [
+          0.9022856251121808,
+          0.9967235122817709
+        ]
+      }
+    },
+    {
+      "class": "uncomplicated_appendicitis",
+      "class_index": 1,
+      "support": 46,
+      "predicted_support": 38,
+      "tp": 34,
+      "tn": 43,
+      "fp": 4,
+      "fn": 12,
+      "precision": 0.8947368421052632,
+      "ppv": 0.8947368421052632,
+      "npv": 0.7818181818181819,
+      "sensitivity": 0.7391304347826086,
+      "specificity": 0.9148936170212766,
+      "f1": 0.8095238095238095,
+      "fpr": 0.0851063829787234,
+      "fnr": 0.2608695652173913,
+      "balanced_accuracy": 0.8270120259019427,
+      "mcc": 0.6651941506167098,
+      "auroc": 0.8755781683626273,
+      "auprc_average_precision": 0.8685714439068917,
+      "recall": 0.7391304347826086,
+      "accuracy_within_class": 0.7391304347826086,
+      "one_vs_rest_accuracy": 0.8279569892473119,
+      "recall_wilson_95ci": [
+        0.597408464719844,
+        0.843991135543574
+      ],
+      "wilson_95ci": {
+        "accuracy": [
+          0.7386611476514643,
+          0.8912343613881505
+        ],
+        "sensitivity": [
+          0.597408464719844,
+          0.843991135543574
+        ],
+        "specificity": [
+          0.8006846221303541,
+          0.9664058765420744
+        ],
+        "ppv": [
+          0.7586947827711269,
+          0.9582974265244647
+        ],
+        "npv": [
+          0.6562996597815998,
+          0.8705397595887698
+        ]
+      }
+    },
+    {
+      "class": "complicated_appendicitis",
+      "class_index": 2,
+      "support": 15,
+      "predicted_support": 16,
+      "tp": 12,
+      "tn": 74,
+      "fp": 4,
+      "fn": 3,
+      "precision": 0.75,
+      "ppv": 0.75,
+      "npv": 0.961038961038961,
+      "sensitivity": 0.8,
+      "specificity": 0.9487179487179487,
+      "f1": 0.7741935483870968,
+      "fpr": 0.05128205128205128,
+      "fnr": 0.2,
+      "balanced_accuracy": 0.8743589743589744,
+      "mcc": 0.7296352735220745,
+      "auroc": 0.9564102564102565,
+      "auprc_average_precision": 0.8017549312286155,
+      "recall": 0.8,
+      "accuracy_within_class": 0.8,
+      "one_vs_rest_accuracy": 0.9247311827956989,
+      "recall_wilson_95ci": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "wilson_95ci": {
+        "accuracy": [
+          0.8527029989674109,
+          0.9630633160183195
+        ],
+        "sensitivity": [
+          0.5481455128483065,
+          0.9295245065301844
+        ],
+        "specificity": [
+          0.8754332345270551,
+          0.9798789875261039
+        ],
+        "ppv": [
+          0.5050168346449122,
+          0.8981793250878696
+        ],
+        "npv": [
+          0.8916001812736711,
+          0.986662049959409
+        ]
+      }
+    }
+  ],
+  "confusion_matrix": [
+    [
+      31,
+      1,
+      0
+    ],
+    [
+      8,
+      34,
+      4
+    ],
+    [
+      0,
+      3,
+      12
+    ]
+  ],
+  "diagnosis": {
+    "status": "ok",
+    "patients": 93,
+    "support_positive": 61,
+    "support_negative": 32,
+    "tp": 53,
+    "tn": 31,
+    "fp": 1,
+    "fn": 8,
+    "accuracy": 0.9032258064516129,
+    "precision": 0.9814814814814815,
+    "ppv": 0.9814814814814815,
+    "npv": 0.7948717948717948,
+    "sensitivity": 0.8688524590163934,
+    "recall": 0.8688524590163934,
+    "specificity": 0.96875,
+    "f1": 0.9217391304347826,
+    "negative_class_precision": 0.7948717948717948,
+    "negative_class_recall": 0.96875,
+    "negative_class_f1": 0.8732394366197183,
+    "macro_f1": 0.8974892835272504,
+    "weighted_f1": 0.9050510637457283,
+    "fpr": 0.03125,
+    "fnr": 0.13114754098360656,
+    "balanced_accuracy": 0.9188012295081966,
+    "mcc": 0.8063965608427022,
+    "auroc": 0.9508196721311475,
+    "auprc_average_precision": 0.9784140544825211,
+    "brier": 0.08294743583555149,
+    "log_loss": 0.28159621306737276,
+    "confusion_matrix": [
+      [
+        31,
+        1
+      ],
+      [
+        8,
+        53
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.8262133606698858,
+        0.9482483307722633
+      ],
+      "sensitivity": [
+        0.7619811980700654,
+        0.932019227250999
+      ],
+      "specificity": [
+        0.8425573617998745,
+        0.994462139835997
+      ],
+      "ppv": [
+        0.9022856251121808,
+        0.9967235122817709
+      ],
+      "npv": [
+        0.644660319864177,
+        0.8922028176928961
+      ]
+    },
+    "positive_class": "appendicitis",
+    "negative_class": "no appendicitis"
+  },
+  "severity_direct_true_appendicitis": {
+    "status": "ok",
+    "patients": 61,
+    "support_positive": 15,
+    "support_negative": 46,
+    "tp": 12,
+    "tn": 42,
+    "fp": 4,
+    "fn": 3,
+    "accuracy": 0.8852459016393442,
+    "precision": 0.75,
+    "ppv": 0.75,
+    "npv": 0.9333333333333333,
+    "sensitivity": 0.8,
+    "recall": 0.8,
+    "specificity": 0.9130434782608695,
+    "f1": 0.7741935483870968,
+    "negative_class_precision": 0.9333333333333333,
+    "negative_class_recall": 0.9130434782608695,
+    "negative_class_f1": 0.9230769230769231,
+    "macro_f1": 0.8486352357320099,
+    "weighted_f1": 0.8864662571695888,
+    "fpr": 0.08695652173913043,
+    "fnr": 0.2,
+    "balanced_accuracy": 0.8565217391304347,
+    "mcc": 0.6980303552221738,
+    "auroc": 0.9202898550724637,
+    "auprc_average_precision": 0.7989771534508376,
+    "brier": 0.089830560100633,
+    "log_loss": 0.300888237202694,
+    "confusion_matrix": [
+      [
+        42,
+        4
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.7815569152759893,
+        0.9432879733926779
+      ],
+      "sensitivity": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "specificity": [
+        0.7967533592588116,
+        0.9656641321052741
+      ],
+      "ppv": [
+        0.5050168346449122,
+        0.8981793250878696
+      ],
+      "npv": [
+        0.8214339803640811,
+        0.977067967400749
+      ]
+    },
+    "positive_class": "complicated",
+    "negative_class": "uncomplicated"
+  },
+  "severity_after_gating_true_appendicitis": {
+    "status": "ok",
+    "patients": 61,
+    "support_positive": 15,
+    "support_negative": 46,
+    "tp": 12,
+    "tn": 42,
+    "fp": 4,
+    "fn": 3,
+    "accuracy": 0.8852459016393442,
+    "precision": 0.75,
+    "ppv": 0.75,
+    "npv": 0.9333333333333333,
+    "sensitivity": 0.8,
+    "recall": 0.8,
+    "specificity": 0.9130434782608695,
+    "f1": 0.7741935483870968,
+    "negative_class_precision": 0.9333333333333333,
+    "negative_class_recall": 0.9130434782608695,
+    "negative_class_f1": 0.9230769230769231,
+    "macro_f1": 0.8486352357320099,
+    "weighted_f1": 0.8864662571695888,
+    "fpr": 0.08695652173913043,
+    "fnr": 0.2,
+    "balanced_accuracy": 0.8565217391304347,
+    "mcc": 0.6980303552221738,
+    "auroc": 0.9289855072463769,
+    "auprc_average_precision": 0.8033889181567201,
+    "brier": 0.08942510094311838,
+    "log_loss": 0.29429773982354923,
+    "confusion_matrix": [
+      [
+        42,
+        4
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.7815569152759893,
+        0.9432879733926779
+      ],
+      "sensitivity": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "specificity": [
+        0.7967533592588116,
+        0.9656641321052741
+      ],
+      "ppv": [
+        0.5050168346449122,
+        0.8981793250878696
+      ],
+      "npv": [
+        0.8214339803640811,
+        0.977067967400749
+      ]
+    },
+    "positive_class": "complicated",
+    "negative_class": "uncomplicated",
+    "decision_rule": "argmax(P_no,P_uncomplicated,P_complicated)==2",
+    "ranking_score": "p*q; decision is not threshold(p*q)"
+  },
+  "complicated_end_to_end_all_patients": {
+    "status": "ok",
+    "patients": 93,
+    "support_positive": 15,
+    "support_negative": 78,
+    "tp": 12,
+    "tn": 74,
+    "fp": 4,
+    "fn": 3,
+    "accuracy": 0.9247311827956989,
+    "precision": 0.75,
+    "ppv": 0.75,
+    "npv": 0.961038961038961,
+    "sensitivity": 0.8,
+    "recall": 0.8,
+    "specificity": 0.9487179487179487,
+    "f1": 0.7741935483870968,
+    "negative_class_precision": 0.961038961038961,
+    "negative_class_recall": 0.9487179487179487,
+    "negative_class_f1": 0.9548387096774194,
+    "macro_f1": 0.864516129032258,
+    "weighted_f1": 0.9257023933402706,
+    "fpr": 0.05128205128205128,
+    "fnr": 0.2,
+    "balanced_accuracy": 0.8743589743589744,
+    "mcc": 0.7296352735220745,
+    "auroc": 0.9564102564102565,
+    "auprc_average_precision": 0.8017549312286155,
+    "brier": 0.0587140126888471,
+    "log_loss": 0.19510488876663243,
+    "confusion_matrix": [
+      [
+        74,
+        4
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.8527029989674109,
+        0.9630633160183195
+      ],
+      "sensitivity": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "specificity": [
+        0.8754332345270551,
+        0.9798789875261039
+      ],
+      "ppv": [
+        0.5050168346449122,
+        0.8981793250878696
+      ],
+      "npv": [
+        0.8916001812736711,
+        0.986662049959409
+      ]
+    },
+    "positive_class": "complicated",
+    "negative_class": "no or uncomplicated",
+    "decision_rule": "argmax(P_no,P_uncomplicated,P_complicated)==2",
+    "ranking_score": "p*q; decision is not threshold(p*q)"
+  },
+  "calibration_top_label": [
+    {
+      "bin_low": 0.5,
+      "patients": 9,
+      "confidence": 0.5403322842386034,
+      "accuracy": 0.5555555555555556
+    },
+    {
+      "bin_low": 0.6,
+      "patients": 8,
+      "confidence": 0.6598490476608276,
+      "accuracy": 0.75
+    },
+    {
+      "bin_low": 0.7,
+      "patients": 10,
+      "confidence": 0.7521493613719941,
+      "accuracy": 1.0
+    },
+    {
+      "bin_low": 0.8,
+      "patients": 15,
+      "confidence": 0.8444650133450826,
+      "accuracy": 0.7333333333333333
+    },
+    {
+      "bin_low": 0.9,
+      "patients": 51,
+      "confidence": 0.9510613340957492,
+      "accuracy": 0.8823529411764706
+    }
+  ],
+  "prediction_rule": "argmax_three_classes",
+  "diagnosis_marginal": {
+    "status": "ok",
+    "patients": 93,
+    "support_positive": 61,
+    "support_negative": 32,
+    "tp": 53,
+    "tn": 31,
+    "fp": 1,
+    "fn": 8,
+    "accuracy": 0.9032258064516129,
+    "precision": 0.9814814814814815,
+    "ppv": 0.9814814814814815,
+    "npv": 0.7948717948717948,
+    "sensitivity": 0.8688524590163934,
+    "recall": 0.8688524590163934,
+    "specificity": 0.96875,
+    "f1": 0.9217391304347826,
+    "negative_class_precision": 0.7948717948717948,
+    "negative_class_recall": 0.96875,
+    "negative_class_f1": 0.8732394366197183,
+    "macro_f1": 0.8974892835272504,
+    "weighted_f1": 0.9050510637457283,
+    "fpr": 0.03125,
+    "fnr": 0.13114754098360656,
+    "balanced_accuracy": 0.9188012295081966,
+    "mcc": 0.8063965608427022,
+    "auroc": 0.9508196721311475,
+    "auprc_average_precision": 0.9784140544825211,
+    "brier": 0.08294743583555149,
+    "log_loss": 0.28159621306737276,
+    "confusion_matrix": [
+      [
+        31,
+        1
+      ],
+      [
+        8,
+        53
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.8262133606698858,
+        0.9482483307722633
+      ],
+      "sensitivity": [
+        0.7619811980700654,
+        0.932019227250999
+      ],
+      "specificity": [
+        0.8425573617998745,
+        0.994462139835997
+      ],
+      "ppv": [
+        0.9022856251121808,
+        0.9967235122817709
+      ],
+      "npv": [
+        0.644660319864177,
+        0.8922028176928961
+      ]
+    },
+    "auprc_ap": 0.9784140544825211,
+    "auprc_trapezoid": 0.9782566104886881
+  },
+  "severity_marginal_all": {
+    "status": "ok",
+    "patients": 93,
+    "support_positive": 15,
+    "support_negative": 78,
+    "tp": 12,
+    "tn": 74,
+    "fp": 4,
+    "fn": 3,
+    "accuracy": 0.9247311827956989,
+    "precision": 0.75,
+    "ppv": 0.75,
+    "npv": 0.961038961038961,
+    "sensitivity": 0.8,
+    "recall": 0.8,
+    "specificity": 0.9487179487179487,
+    "f1": 0.7741935483870968,
+    "negative_class_precision": 0.961038961038961,
+    "negative_class_recall": 0.9487179487179487,
+    "negative_class_f1": 0.9548387096774194,
+    "macro_f1": 0.864516129032258,
+    "weighted_f1": 0.9257023933402706,
+    "fpr": 0.05128205128205128,
+    "fnr": 0.2,
+    "balanced_accuracy": 0.8743589743589744,
+    "mcc": 0.7296352735220745,
+    "auroc": 0.9564102564102565,
+    "auprc_average_precision": 0.8017549312286155,
+    "brier": 0.05871401220216045,
+    "log_loss": 0.19510488654846084,
+    "confusion_matrix": [
+      [
+        74,
+        4
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.8527029989674109,
+        0.9630633160183195
+      ],
+      "sensitivity": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "specificity": [
+        0.8754332345270551,
+        0.9798789875261039
+      ],
+      "ppv": [
+        0.5050168346449122,
+        0.8981793250878696
+      ],
+      "npv": [
+        0.8916001812736711,
+        0.986662049959409
+      ]
+    },
+    "auprc_ap": 0.8017549312286155,
+    "auprc_trapezoid": 0.7924094521462942
+  },
+  "severity_conditional_direct": {
+    "status": "ok",
+    "patients": 61,
+    "support_positive": 15,
+    "support_negative": 46,
+    "tp": 12,
+    "tn": 42,
+    "fp": 4,
+    "fn": 3,
+    "accuracy": 0.8852459016393442,
+    "precision": 0.75,
+    "ppv": 0.75,
+    "npv": 0.9333333333333333,
+    "sensitivity": 0.8,
+    "recall": 0.8,
+    "specificity": 0.9130434782608695,
+    "f1": 0.7741935483870968,
+    "negative_class_precision": 0.9333333333333333,
+    "negative_class_recall": 0.9130434782608695,
+    "negative_class_f1": 0.9230769230769231,
+    "macro_f1": 0.8486352357320099,
+    "weighted_f1": 0.8864662571695888,
+    "fpr": 0.08695652173913043,
+    "fnr": 0.2,
+    "balanced_accuracy": 0.8565217391304347,
+    "mcc": 0.6980303552221738,
+    "auroc": 0.9202898550724637,
+    "auprc_average_precision": 0.7989771534508376,
+    "brier": 0.089830560100633,
+    "log_loss": 0.300888237202694,
+    "confusion_matrix": [
+      [
+        42,
+        4
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "confusion_matrix_order": [
+      "negative",
+      "positive"
+    ],
+    "wilson_95ci": {
+      "accuracy": [
+        0.7815569152759893,
+        0.9432879733926779
+      ],
+      "sensitivity": [
+        0.5481455128483065,
+        0.9295245065301844
+      ],
+      "specificity": [
+        0.7967533592588116,
+        0.9656641321052741
+      ],
+      "ppv": [
+        0.5050168346449122,
+        0.8981793250878696
+      ],
+      "npv": [
+        0.8214339803640811,
+        0.977067967400749
+      ]
+    },
+    "auprc_ap": 0.7989771534508376,
+    "auprc_trapezoid": 0.7896530418898839
+  }
+}
