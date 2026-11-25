@@ -35,10 +35,12 @@ S0012_V02_P02,12,2,2,4,Appendix,True,12.2 Appendix.png,991,710,496,0,991,355,ima
 S0012_V02_P03,12,2,3,4,Appendix,True,12.2 Appendix.png,991,710,0,355,496,710,images/S0012_V02_P03.png
 S0012_V02_P04,12,2,4,4,Appendix,True,12.2 Appendix.png,991,710,496,355,991,710,images/S0012_V02_P04.png
 S0013_V01_P01,13,1,1,1,Appendix,False,13.1 Appendix.png,716,537,0,0,716,537,images/S0013_V01_P01.png
-S0014_V01_P01,14,1,1,4,Appendix,True,14.1 Appendix.png,1000,726,0,0,500,363,images/S0014_V01_P01.png
-S0014_V01_P02,14,1,2,4,Appendix,True,14.1 Appendix.png,1000,726,500,0,1000,363,images/S0014_V01_P02.png
-S0014_V01_P03,14,1,3,4,Appendix,True,14.1 Appendix.png,1000,726,0,363,500,726,images/S0014_V01_P03.png
-S0014_V01_P04,14,1,4,4,Appendix,True,14.1 Appendix.png,1000,726,500,363,1000,726,images/S0014_V01_P04.png
+S0014_V01_P01,14,1,1,6,Appendix,True,14.1 Appendix.png,1000,726,0,0,500,363,images/S0014_V01_P01.png
+S0014_V01_P02,14,1,2,6,Appendix,True,14.1 Appendix.png,1000,726,500,0,1000,363,images/S0014_V01_P02.png
+S0014_V01_P03,14,1,3,6,Appendix,True,14.1 Appendix.png,1000,726,0,363,250,726,images/S0014_V01_P03.png
+S0014_V01_P04,14,1,4,6,Appendix,True,14.1 Appendix.png,1000,726,250,363,500,726,images/S0014_V01_P04.png
+S0014_V01_P05,14,1,5,6,Appendix,True,14.1 Appendix.png,1000,726,500,363,750,726,images/S0014_V01_P05.png
+S0014_V01_P06,14,1,6,6,Appendix,True,14.1 Appendix.png,1000,726,750,363,1000,726,images/S0014_V01_P06.png
 S0014_V03_P01,14,3,1,2,Appendix,True,14.3 Appendix.png,1011,353,0,0,506,353,images/S0014_V03_P01.png
 S0014_V03_P02,14,3,2,2,Appendix,True,14.3 Appendix.png,1011,353,506,0,1011,353,images/S0014_V03_P02.png
 S0015_V01_P01,15,1,1,1,Appendix,False,15.1 Appendix.png,719,537,0,0,719,537,images/S0015_V01_P01.png
